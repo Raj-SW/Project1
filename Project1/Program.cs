@@ -19,12 +19,11 @@ namespace Project1
             
             List<String> contactDetails = new List<string>() {"Raj.Seetohul@ceridian.com","58342636","@Raj__SW"};
             CV myCV = new CV(Intro, listExperience,listEducation,listTraining,skills,techSkills,contactDetails);
-
             Console.WriteLine(myCV.getIntro());
             
             Console.WriteLine();
 
-            myCV.displayMenu();
+            Menu.displayMenu(myCV);
 
            
         }
