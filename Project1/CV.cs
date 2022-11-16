@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Project1
 {
-    public class CV:DisplayInterface
+    public class CV
     {
         private String intro;
         private List<Experience> listExperience= new List<Experience>();
@@ -18,7 +18,9 @@ namespace Project1
 
         private List<CV> listCV= new List<CV>();
 
-        public  CV(string intro, List<Experience> listExperience, List<Education> listEducation, List<Training> listTraining, List<String> skills, List<String> techSkills, List<String> contactDetails)
+        public  CV(string intro, List<Experience> listExperience,
+         List<Education> listEducation, List<Training> listTraining, 
+         List<String> skills, List<String> techSkills, List<String> contactDetails)
         {
             this.intro = intro;
             this.listExperience = listExperience;

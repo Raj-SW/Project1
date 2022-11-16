@@ -8,7 +8,7 @@ namespace Project1
 {
     interface DisplayInterface
     {
-        void displayMenu();
+        void displayMenu(CV myCV);
         void showMenu1(List<Experience> exp);
         void showMenu2(List<Education> edu, List<Training> train);
         void showMenu3(List<String> skills);
